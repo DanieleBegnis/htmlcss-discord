@@ -26,18 +26,14 @@ body {
     display: flex;
 }
 
-
 /*-------------------
    HEADER
 -------------------*/
 nav {
-    background-color: lightblue;
+    background-color: #3161e0;
     display: flex;
     justify-content: center;
     padding: 8px 0;
-}
-.navigation {
-    background-color: gold;
 }
 .logo {
     text-align: left;
@@ -46,10 +42,27 @@ nav {
 .link {
     text-align: center;
     width: 50%;
+   
+}
+ul li {
+    list-style-type:none;  
+}
+li a {
+    text-decoration: none;
+    color: white;
 }
 .login {
     text-align: right;
     width: 25%;
+}
+.btn{
+    padding: 10px 8px;
+    border-radius: 16px;
+    border: 0;
+}
+.btn-white{
+    background-color: white;
+    color: black;
 }
 header section {
     background-color: blue;
@@ -130,7 +143,7 @@ footer section{
     border: 2px dashed black;
     background-color: salmon;
 }
-.btn {
+/* /* .btn {
     background-color: salmon;
     border: 2px dashed black;
-}
+} */
