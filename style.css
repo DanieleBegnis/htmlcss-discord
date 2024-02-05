@@ -207,20 +207,13 @@ h4 {
 }
 .bottom-footer {
     padding-top: 6px;
-    border-top: 1px solid grey;
+    border-top: 1px solid #f6f6f6;
 }
 .bottom {
     display: flex;
-    background-color: aquamarine;
     padding: 4px;
     width: 100%;
     justify-content: space-between;
+    margin-bottom: 40px;
+    margin-top: 15px;
 }
-.logo-finale {
-    border: 2px dashed black;
-    background-color: salmon;
-}
-/* /* .btn {
-    background-color: salmon;
-    border: 2px dashed black;
-} */
