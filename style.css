@@ -8,12 +8,6 @@
 }
 
 /*-------------------
-   PLACEHOLDER
--------------------*/
-.rectangle, .bigrectangle, .headdiv, .navigation {
-    border: 2px dashed black ;
-}
-/*-------------------
    BODY
 -------------------*/
 body {
@@ -59,21 +53,45 @@ li a {
     padding: 10px 8px;
     border-radius: 16px;
     border: 0;
+    font-family: inherit
 }
 .btn-white{
     background-color: white;
     color: black;
 }
+.btn-black {
+    background-color: black;
+    color: white;
+}
 header section {
-    background-color: blue;
+    background-image: url(./img/jumbo.png);
+    width: 100%;
 }
 .headdiv {
-    background-color: fuchsia;
-    min-height: 250px;
+    min-height: 400px;
     margin: 0 auto;
     width: 60%;
 }
+.headdiv h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px 0;
+}
+.headdiv p{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    font-size: large;
+}
+.header-buttons{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: large;
 
+}
 /*-------------------
    MAIN
 -------------------*/
