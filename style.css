@@ -106,15 +106,23 @@ main section {
     background-color: lightgray;
 }
 .rectangle {
-    min-height: 300px
+    min-height: 300px;
+    margin: 60px 0;
 }
 .lightblue {
-    background-color: lightblue;
-    width: 66.66%
+    width: 65%;
+    vertical-align: text-top;
 }
 .pink{
-    background-color: pink;
-    width: 33.33%;
+    width: 35%;
+    vertical-align: text-top;
+}
+h2{
+    font-size: 50px;
+}
+.paragraph-main {
+    padding-top: 20px;
+    font-size: 20px;
 }
 .bigrectangle {
     min-height: 600px;
