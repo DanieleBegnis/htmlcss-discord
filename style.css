@@ -1,0 +1,132 @@
+/*-------------------
+    RESET
+-------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-------------------
+   PLACEHOLDER
+-------------------*/
+.rectangle, .bigrectangle, .headdiv, .navigation {
+    border: 2px dashed black ;
+}
+/*-------------------
+   BODY
+-------------------*/
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    min-width: 80%;
+    display: flex;
+}
+
+/*-------------------
+   HEADER
+-------------------*/
+nav {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    padding: 8px 0;
+}
+.navigation {
+    background-color: gold;
+}
+.logo {
+    text-align: left;
+    width: 25%;
+}
+.link {
+    text-align: center;
+    width: 50%;
+}
+.login {
+    text-align: right;
+    width: 25%;
+}
+header section {
+    background-color: blue;
+}
+.headdiv {
+    background-color: fuchsia;
+    min-height: 250px;
+    margin: 0 auto;
+    width: 60%;
+}
+
+/*-------------------
+   MAIN
+-------------------*/
+main section {
+    display: flex;
+    padding: 20px 0;
+}
+.white {
+    background-color: white;
+}
+.grey {
+    background-color: lightgray;
+}
+.rectangle {
+    min-height: 300px
+}
+.lightblue {
+    background-color: lightblue;
+    width: 66.66%
+}
+.pink{
+    background-color: pink;
+    width: 33.33%;
+}
+.bigrectangle {
+    min-height: 600px;
+    background-color: green;
+    width: 100%;
+}
+
+/*-------------------
+   FOOTER
+-------------------*/
+footer section{
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+}
+.top-footer {
+    padding-top: 4px;
+    padding-bottom: 8px;
+}
+.small {
+    width: 30%;
+    background-color: salmon;
+}
+.large {
+    width: 70%;
+    background-color: aqua;
+    display: flex;
+}
+.rectangle .smaller {
+    width: 25%;
+    border: 2px dashed white;
+}
+.bottom-footer {
+    padding-top: 6px;
+    border-top: 1px solid grey;
+}
+.bottom {
+    display: flex;
+    background-color: aquamarine;
+    padding: 4px;
+    width: 100%;
+    justify-content: space-between;
+}
+.logo-finale {
+    border: 2px dashed black;
+    background-color: salmon;
+}
+.btn {
+    background-color: salmon;
+    border: 2px dashed black;
+}
