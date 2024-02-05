@@ -16,12 +16,16 @@
 /*-------------------
    BODY
 -------------------*/
+body {
+    font-family: 'Cabin', sans-serif;
+}
 .container {
     max-width: 1000px;
     margin: 0 auto;
     min-width: 80%;
     display: flex;
 }
+
 
 /*-------------------
    HEADER
