@@ -63,6 +63,11 @@ li a {
     background-color: black;
     color: white;
 }
+.btn-purple {
+    background-color: #8ea1e1;
+    color: white;
+
+}
 header section {
     background-image: url(./img/jumbo.png);
     width: 100%;
@@ -103,7 +108,7 @@ main section {
     background-color: white;
 }
 .grey {
-    background-color: lightgray;
+    background-color: #f6f6f6;
 }
 .rectangle {
     min-height: 300px;
@@ -120,16 +125,33 @@ main section {
 h2{
     font-size: 50px;
 }
+h3{
+    font-weight: 600;
+    font-size: 30px;
+}
 .paragraph-main {
-    padding-top: 20px;
+    padding: 20px;
     font-size: 20px;
 }
 .bigrectangle {
     min-height: 600px;
-    background-color: green;
     width: 100%;
+    margin-bottom: 40px;
 }
-
+.last-section {
+    display: flex;
+    justify-content: center;
+}
+.last-section > div {
+    padding-top: 30px ;
+    background-image: url(./img/stars.svg);
+    background-image: cover;
+}
+.btn-final{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
 /*-------------------
    FOOTER
 -------------------*/
