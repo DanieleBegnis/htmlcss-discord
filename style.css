@@ -156,7 +156,7 @@ h3{
    FOOTER
 -------------------*/
 footer section{
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: #23272a;
     display: flex;
 }
 .top-footer {
@@ -165,16 +165,20 @@ footer section{
 }
 .small {
     width: 30%;
-    background-color: salmon;
 }
 .large {
     width: 70%;
-    background-color: aqua;
     display: flex;
 }
 .rectangle .smaller {
     width: 25%;
-    border: 2px dashed white;
+}
+h4 {
+    color: #8ea1e1;
+    margin-bottom: 15px;
+}
+.rectangle .smaller li{
+    padding: 8px 0;
 }
 .bottom-footer {
     padding-top: 6px;
