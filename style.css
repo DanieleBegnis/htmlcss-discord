@@ -77,6 +77,7 @@ li a {
 header section {
     background-image: url(./img/jumbo.png);
     width: 100%;
+    background-size: cover;
 }
 .headdiv {
     min-height: 400px;
